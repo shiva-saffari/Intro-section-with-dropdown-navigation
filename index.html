@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+</head>
+
+<body>
+  <div class="overlay"></div>
+  <header class="header">
+    <a href="#" class="nav-logo">
+      <img src="./images/logo.svg" alt="logo" class="logo">
+    </a>
+    <nav class="navigation-nav">
+      <ul class="navigation-list list-1">
+        <li class="navigation-item">
+          <a class="navigation-link dropdown" href="#">
+            <span>Features</span>
+            <img src="./images/icon-arrow-up.svg" alt="arrow up" class="arrow-up">
+            <img src="./images/icon-arrow-down.svg" alt="arrow down" class="arrow-down">
+          </a>
+          <ul class="dropdown-list">
+            <li class="dropdown-list-item">
+              <a href="#" class="dropdown-link">
+                <img src="./images/icon-todo.svg" alt="icon" class="dropdown-img">
+                <span>Todo List</span>
+              </a>
+            </li>
+            <li class="dropdown-list-item">
+              <a href="#" class="dropdown-link">
+                <img src="./images/icon-calendar.svg" alt="icon" class="dropdown-img">
+                <span>Calender</span>
+              </a>
+            </li>
+            <li class="dropdown-list-item">
+              <a href="#" class="dropdown-link">
+                <img src="./images/icon-reminders.svg" alt="icon" class="dropdown-img">
+                <span>Reminders</span>
+              </a>
+            </li>
+            <li class="dropdown-list-item">
+              <a href="#" class="dropdown-link">
+                <img src="./images/icon-planning.svg" alt="icon" class="dropdown-img">
+                <span>Planning</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link dropdown" href="#">
+            <span>Company</span>
+            <img src="./images/icon-arrow-up.svg" alt="arrow up" class="arrow-up">
+            <img src="./images/icon-arrow-down.svg" alt="arrow down" class="arrow-down">
+          </a>
+          <ul class="dropdown-list">
+            <li class="dropdown-list-item">
+              <a href="#" class="dropdown-link">
+                <span>History</span>
+              </a>
+            </li>
+            <li class="dropdown-list-item">
+              <a href="#" class="dropdown-link">
+                <span>Our team</span>
+              </a>
+            </li>
+            <li class="dropdown-list-item">
+              <a href="#" class="dropdown-link">
+                <span>Blog</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">
+            <span>Careers</span>
+          </a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">
+            <span>About</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="navigation-list list-2">
+        <li class="navigation-item"><a class="navigation-link" href="#">Login</a></li>
+        <li class="navigation-item"><a class="navigation-link" href="#">Register</a></li>
+      </ul>
+    </nav>
+    <button class="btn-mobile-nav">
+      <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+      <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+    </button>
+  </header>
+  <main>
+    <section class="section-hero">
+      <div class="hero">
+        <div class="hero-text-box">
+          <h1 class="heading-primary"> Make remote work</h1>
+          <p class="hero-description">Get your team in sync, no matter your location. Streamline processes,
+            create team rituals, and watch productivity soar.
+          </p>
+          <a href="#" class="btn btn-hero">Learn more</a>
+          <div class="featured">
+            <div class="featured-logos">
+              <img src="./images/client-databiz.svg" alt="databiz logo">
+              <img src="./images/client-audiophile.svg" alt="audiophile logo">
+              <img src="./images/client-meet.svg" alt="meet logo">
+              <img src="./images/client-maker.svg" alt="maker logo">
+            </div>
+          </div>
+        </div>
+        <div class="hero-img-box">
+          <img src="./images/image-hero-desktop.png"
+            alt="man working with a laptop, with a bunch of abstract illustrations" class="hero-img">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
